@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+  font-weight: 200;
+}
+
+div {
+  min-height: 100vh;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+p {
+  text-transform: uppercase;
+  color: white;
+}
+
+.winter {
+  background: url(/images/Winter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.winter p:first-child {
+  transform: translateY(0);
+}
+
+.winter:hover {
+  width: 33%;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.forest {
+  background: url(/images/forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.forest:hover {
+  width: 33%;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.motion {
+  background: url(/images/motion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.motion:hover {
+  width: 33%;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.cat {
+  background: url(/images/cate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cat:hover {
+  width: 33%;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.parashute {
+  background: url(/images/parashute.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.parashute:hover {
+  width: 33%;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.active {
+  width: 33%;
+  transition: all;
+  transition-duration: 1s;
+}
